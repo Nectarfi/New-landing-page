@@ -1,10 +1,13 @@
 import React from "react";
+import Link from "next/link";
 
 export default function NavBar() {
   return (
     <div className="w-full px-4 sm:px-6 lg:px-8 flex justify-between items-center py-5">
       <div className="lg:w-[187px]">
-        <img src="/images/nectar-logo-brown.png" alt="" />
+        <Link href="/">
+          <img src="/images/nectar-logo-brown.png" alt="NectarFi Logo" />
+        </Link>
       </div>
 
       <div className="flex items-center gap-3 flex-row  text-base">

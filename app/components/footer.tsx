@@ -25,7 +25,7 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Products</h3>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li>Virtual card</li>
+              <li><a href="/cards">Virtual cards</a></li>
               <li>Earn interests</li>
               <li>Business account</li>
             </ul>
@@ -34,15 +34,15 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Company</h3>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li>Terms of Use</li>
-              <li>AML/CFT policy</li>
-              <li>Privacy policy</li>
+              <li><a target='_blank' href="https://nectarfi-1.gitbook.io/terms-and-conditions/"> Terms of Use</a></li>
+              <li><a target='_blank' href="https://nectarfi-1.gitbook.io/nectarfi-aml-cft-policy/">AML/CFT policy</a></li>
+              <li><a target='_blank' href="https://nectarfi-1.gitbook.io/nectarfi-privacy-policy/">Privacy policy</a></li>
             </ul>
           </div>
 
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Talk to us</h3>
-            <p className="text-sm text-gray-400">support@nectarfi.com</p>
+            <p className="text-sm text-gray-400">support@nectarfi.finance</p>
             <div className="flex space-x-4">
               <FaInstagram className="h-6 w-6" />
               <FaXTwitter className="h-6 w-6" />

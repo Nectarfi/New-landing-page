@@ -6,7 +6,7 @@ export default function SafeSecureOwned() {
     <div className="w-full py-10">
       <section className="relative bg-[#2D2214] px-4 sm:px-6 lg:px-8 py-10 w-full text-white overflow-hidden">
         <div className="absolute inset-0 z-0 opacity-40">
-          <Image src={"/images/pattern-brown.png"} alt="Background Pattern" className="w-full h-full object-cover" />
+          <Image src={"/images/pattern-brown.png"} alt="Background Pattern" width={1920} height={1080} className="w-full h-full object-cover" />
         </div>
 
         <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

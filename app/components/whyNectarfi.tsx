@@ -28,7 +28,7 @@ export default function WhyNectarfi() {
                       Enjoy same-day settlements and instant access to your funds. Withdraw your savings directly to your local bank account or mobile money whenever you need it.
                     </p>
                     <div className="absolute -bottom-4 -right-4 scale-50 sm:scale-75">
-                      <Image src={"/images/bolt-nectar.png"} alt="Lightning Icon" className="w-32 h-32" />
+                      <Image src={"/images/bolt-nectar.png"} alt="Lightning Icon" width={128} height={128} className="w-32 h-32" />
                     </div>
                   </div>
                 </div>
@@ -39,7 +39,7 @@ export default function WhyNectarfi() {
                     Open a free international bank account in minutes. Receive payments from anyone, anywhere via ACH, Wire, or SEPA, just like a local. No monthly charges, ever.
                   </p>
                   <div className="absolute bottom-2 right-1 flex items-end scale-50 sm:scale-75">
-                    <Image src={"/images/wallet.png"} alt="Wallet Icon" className="w-auto h-[150px]" />
+                    <Image src={"/images/wallet.png"} alt="Wallet Icon" width={150} height={150} className="w-auto h-[150px]" />
                   </div>
                 </div>
               </div>
@@ -49,7 +49,7 @@ export default function WhyNectarfi() {
                   You can also withdraw funds directly to local banks & mobile money.
                 </p>
                 <div className="flex-shrink-0 flex justify-center sm:justify-end">
-                  <Image src={"/images/100-countries.png"} alt="Flag EU" className="w-full max-w-[200px] h-auto" />
+                  <Image src={"/images/100-countries.png"} alt="Flag EU" width={200} height={100} className="w-full max-w-[200px] h-auto" />
                 </div>
               </div>
             </div>
@@ -60,6 +60,8 @@ export default function WhyNectarfi() {
             <Image
               src={"/images/why-nectarfi.png"}
               alt="Nectarfi App Screenshot"
+              width={400}
+              height={500}
               className="w-full max-w-sm h-auto object-contain hover:scale-105 transition-transform duration-500"
             />
           </div>

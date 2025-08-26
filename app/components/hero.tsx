@@ -28,6 +28,8 @@ export default function Hero() {
               <Image
                 src={"/images/hero-image.png"}
                 alt="Hero Phone"
+                width={500}
+                height={600}
                 className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg h-auto"
               />
             </div>

@@ -7,7 +7,7 @@ export default function NavBar() {
     <div className="w-full px-4 sm:px-6 lg:px-8 flex justify-between items-center py-5">
       <div className="w-32 sm:w-40 lg:w-[187px]">
         <Link href="/">
-          <Image src={"/images/nectar-logo-brown.png"} alt="NectarFi Logo" className="w-full h-auto" />
+          <Image src={"/images/nectar-logo-brown.png"} alt="NectarFi Logo" width={120} height={40} className="w-full h-auto" />
         </Link>
       </div>
 

@@ -10,7 +10,7 @@ export default function HowToGetCard() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div className="flex flex-col items-center">
             <div className=" w-[300px] h-[200px] rounded-lg flex items-center justify-center mb-6">
-              <Image src={"/images/card-1.png"} alt="Step One" />
+              <Image src={"/images/card-1.png"} alt="Step One" width={300} height={200} />
             </div>
             <span className="text-2xl font-semibold mb-4">1</span>
             <h3 className="text-xl font-bold mb-2">Create a free account</h3>
@@ -21,7 +21,7 @@ export default function HowToGetCard() {
 
           <div className="flex flex-col items-center">
             <div className=" w-[300px] h-[200px] rounded-lg flex items-center justify-center mb-6">
-              <Image src={"/images/card-2.png"} alt="Step Two" />
+              <Image src={"/images/card-2.png"} alt="Step Two" width={300} height={200} />
             </div>
             <span className="text-2xl font-semibold mb-4">2</span>
             <h3 className="text-xl font-bold mb-2">Verify your identity and request a card</h3>
@@ -32,7 +32,7 @@ export default function HowToGetCard() {
 
           <div className="flex flex-col items-center">
             <div className=" w-[300px] h-[200px] rounded-lg flex items-center justify-center mb-6">
-              <Image src={"/images/card-3.png"} alt="" />
+              <Image src={"/images/card-3.png"} alt="" width={300} height={200} />
             </div>
             <span className="text-2xl font-semibold mb-4">3</span>
             <h3 className="text-xl font-bold mb-2">Your card is ready! Start spending</h3>

@@ -11,8 +11,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <Image src={"/images/nectar-logo.png"} className="h-8" alt="NectarFi Logo"></Image>
-              <span className="text-xl font-bold">NectarFi</span>
+              <Image src={"/images/nectar-logo.png"} width={120} height={32} className="h-8" alt="NectarFi Logo"></Image>
             </div>
             <p className="text-sm text-gray-400">
               8 The Green, Ste A,
@@ -28,7 +27,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-gray-400">
               <li><a href="/cards">Virtual cards</a></li>
               <li>Earn interests</li>
-              <li>Business account</li>
+              <li>Business account (coming soon)</li>
             </ul>
           </div>
 
@@ -45,9 +44,9 @@ export default function Footer() {
             <h3 className="text-lg font-semibold">Talk to us</h3>
             <p className="text-sm text-gray-400">support@nectarfi.finance</p>
             <div className="flex space-x-4">
-              <FaInstagram className="h-6 w-6" />
-              <FaXTwitter className="h-6 w-6" />
-              <FaTiktok className="h-6 w-6" />
+              <a href="https://www.instagram.com/nectarfi"><FaInstagram className="h-6 w-6" /></a>
+              <a href="https://x.com/Nectar_finance"><FaXTwitter className="h-6 w-6" /></a>
+              <a href="https://www.tiktok.com/@nectarfi"><FaTiktok className="h-6 w-6" /></a>
             </div>
           </div>
         </div>

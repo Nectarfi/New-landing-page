@@ -17,7 +17,7 @@ export default function VirtualCardHero() {
         </div>
         <div className="lg:w-1/2 flex justify-center scroll-animate-right">
           <div className="w-full max-w-md lg:max-w-lg flex items-center justify-center hover:scale-105 transition-transform duration-500">
-            <Image src={"/images/Buttons.png"} alt="" className="w-full h-auto" />
+            <Image src={"/images/Buttons.png"} alt="" width={500} height={300} className="w-full h-auto" />
           </div>
         </div>
       </div>

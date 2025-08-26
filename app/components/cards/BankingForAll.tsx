@@ -1,21 +1,30 @@
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 
 export default function BankingForAll() {
   return (
     <section className="w-full px-4 sm:px-6 lg:px-8 py-24 mt-10 bg-[#4B3922] text-white relative">
       <div className="absolute inset-0 z-0 opacity-40">
-        <Image src={"/images/pattern-brown.png"} alt="Background Pattern" className="w-full h-full object-cover" />
+        <Image
+          src={"/images/pattern-brown.png"}
+          alt="Background Pattern"
+          width={1920}
+          height={1080}
+          className="w-full h-full object-cover"
+        />
       </div>
 
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           <div className="lg:w-full text-center lg:text-left mb-10 lg:mb-0">
             <h1 className="text-5xl font-bold leading-tight mb-6">
-              International <br />Banking for <br />All
+              International <br />
+              Banking for <br />
+              All
             </h1>
             <p className="text-xl mb-8">
-              Get a USD, EUR and GBP account in your name to receive or send money globally.
+              Get a USD, EUR and GBP account in your name to receive or send
+              money globally.
             </p>
 
             <div className="flex flex-row gap-6 justify-start">
@@ -26,15 +35,17 @@ export default function BankingForAll() {
                 Contact Us
               </button>
             </div>
-
           </div>
 
-          <div className="flex justify-center h-full lg:justify-end">
-            <Image
-              src={"/images/nectarfi-people.jpg"}
-              alt="People interacting with Nectarfi app"
-              className="w-full max-w-lg h-auto rounded-3xl shadow-lg object-cover"
-            />
+          <div className="flex justify-center items-center lg:justify-end">
+            <div className="relative w-full max-w-lg aspect-[4/5] rounded-3xl overflow-hidden shadow-lg">
+              <Image
+                fill={true}
+                src={"/images/nectarfi-people.jpg"}
+                alt="People interacting with Nectarfi app"
+                className="object-cover"
+              />
+            </div>
           </div>
         </div>
       </div>

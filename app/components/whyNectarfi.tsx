@@ -27,8 +27,8 @@ export default function WhyNectarfi() {
                     <p className="text-sm leading-relaxed mb-4 pr-8">
                       Enjoy same-day settlements and instant access to your funds. Withdraw your savings directly to your local bank account or mobile money whenever you need it.
                     </p>
-                    <div className="absolute -bottom-4 -right-4 scale-50 sm:scale-75">
-                      <Image src={"/images/bolt-nectar.png"} alt="Lightning Icon" width={128} height={128} className="w-32 h-32" />
+                    <div className="absolute -bottom-4 -right-4 scale-40 sm:scale-60">
+                      <Image src={"/images/bolt-nectar.png"} alt="Lightning Icon" width={100} height={100} className="w-[100px] h-[100px]" />
                     </div>
                   </div>
                 </div>
@@ -55,7 +55,6 @@ export default function WhyNectarfi() {
             </div>
           </div>
 
-          {/* Right Side: 40% width on large screens, full width on small screens */}
           <div className="flex w-full h-full items-center justify-center lg:justify-end scroll-animate-right">
             <Image
               src={"/images/why-nectarfi.png"}

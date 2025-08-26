@@ -13,7 +13,9 @@ export default function NavBar() {
 
       <div className="flex items-center gap-2 sm:gap-3 text-sm sm:text-base">
         <div className="hidden sm:block text-center text-gray-800 font-semibold">
+          <a href="mailto:support@nectarfi.finance">
           <p>Contact Us</p>
+          </a>
         </div>
 
         <div className="text-center text-white bg-[#957343] rounded-xl py-2 px-3 whitespace-nowrap hover:bg-[#7a5f37] hover:scale-105 transition-all duration-300">

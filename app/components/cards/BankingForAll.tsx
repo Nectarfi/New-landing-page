@@ -5,7 +5,7 @@ export default function BankingForAll() {
   return (
     <section className="w-full px-4 sm:px-6 lg:px-8 py-24 mt-10 bg-[#4B3922] text-white relative">
       <div className="absolute inset-0 z-0 opacity-40">
-        <img src="/images/pattern-brown.png" alt="Background Pattern" className="w-full h-full object-cover" />
+        <Image src={"/images/pattern-brown.png"} alt="Background Pattern" className="w-full h-full object-cover" />
       </div>
 
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -22,7 +22,7 @@ export default function BankingForAll() {
               <button className="bg-[#AA8F6B] text-white py-3 px-8 rounded-lg text-lg font-semibold hover:bg-[#8e765b] transition duration-300">
                 Download App
               </button>
-              <button className="border-white text-white py-3 px-8 rounded-lg text-lg font-semibold">
+              <button className="border-white border-1 text-white py-3 px-8 rounded-lg text-lg font-semibold">
                 Contact Us
               </button>
             </div>
@@ -30,8 +30,8 @@ export default function BankingForAll() {
           </div>
 
           <div className="flex justify-center h-full lg:justify-end">
-            <img
-              src="/images/nectarfi-people.jpg"
+            <Image
+              src={"/images/nectarfi-people.jpg"}
               alt="People interacting with Nectarfi app"
               className="w-full max-w-lg h-auto rounded-3xl shadow-lg object-cover"
             />

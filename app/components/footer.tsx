@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
@@ -10,7 +11,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <img src="/images/nectar-logo.png" alt="NectarFi Logo" className="h-8" />
+              <Image src={"/images/nectar-logo.png"} className="h-8" alt="NectarFi Logo"></Image>
               <span className="text-xl font-bold">NectarFi</span>
             </div>
             <p className="text-sm text-gray-400">

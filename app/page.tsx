@@ -1,4 +1,5 @@
-import Image from "next/image";
+'use client';
+
 import NavBar from "./components/navbar";
 import Hero from "./components/hero";
 import WhyNectarfi from "./components/whyNectarfi";
@@ -6,8 +7,11 @@ import MoneyWithoutBorders from "./components/moneyWithoutBorders";
 import WhoIsNectarfiFor from "./components/whoIsNectarfiFor";
 import SafeSecureOwned from "./components/safeSecureOwned";
 import Footer from "./components/footer";
+import { useScrollAnimation } from "./hooks/useScrollAnimation";
 
 export default function Home() {
+  useScrollAnimation();
+
   return (
     <div className="w-full overflow-x-hidden bg-white">
       <NavBar />

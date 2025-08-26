@@ -30,7 +30,7 @@ export default function WhoIsNectarfiFor() {
             <div className="bg-[#F5E0FF] rounded-2xl px-6 py-3 shadow-md">
               <h3 className="text-lg font-semibold mb-2">Web 3 Builder and Crypto earners</h3>
               <p className="text-sm leading-relaxed">
-                Offramp from crypto to cash across 80+ countries globally. If you earn in USDC, Nectarfi let's you cash out fast. No seed phrase, gas fees or exchanges
+                Offramp from crypto to cash across 80+ countries globally. If you earn in USDC, Nectarfi let`&#39;`s you cash out fast. No seed phrase, gas fees or exchanges
               </p>
             </div>
 
@@ -43,8 +43,8 @@ export default function WhoIsNectarfiFor() {
           </div>
 
           <div className="flex justify-center h-full lg:justify-end">
-            <img
-              src="/images/nectarfi-people.jpg"
+            <Image
+              src={"/images/nectarfi-people.jpg"}
               alt="People interacting with Nectarfi app"
               className="w-full max-w-lg h-auto rounded-3xl shadow-lg object-cover"
             />

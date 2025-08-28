@@ -1,7 +1,12 @@
-import React from 'react';
+'use client';
+
+import React, { useState } from 'react';
 import Image from 'next/image';
+import WaitlistModal from '../WaitlistModal';
 
 export default function Hero() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   return (
     <section className="min-h-screen w-full bg-[#3A3A3A] mb-8 rounded-3xl flex items-center overflow-hidden">
       <div className="absolute inset-0 z-0">
@@ -21,7 +26,10 @@ export default function Hero() {
               </p>
             </div>
 
-            <button className="bg-[#BB8F54] text-white px-8 py-4 rounded-2xl text-lg font-semibold hover:bg-gray-700 hover:scale-105 transition-all duration-300 shadow-lg">
+            <button 
+              onClick={() => setIsModalOpen(true)}
+              className="bg-[#BB8F54] text-white px-8 py-4 rounded-2xl text-lg font-semibold hover:bg-gray-700 hover:scale-105 transition-all duration-300 shadow-lg"
+            >
               Join Waitlist
             </button>
           </div>
@@ -39,6 +47,11 @@ export default function Hero() {
           </div>
         </div>
       </div>
+
+      <WaitlistModal 
+        isOpen={isModalOpen} 
+        onClose={() => setIsModalOpen(false)} 
+      />
     </section>
   );
 }

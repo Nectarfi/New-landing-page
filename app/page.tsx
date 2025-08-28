@@ -14,10 +14,10 @@ export default function Home() {
 
   return (
     <div className="w-full overflow-x-hidden bg-white">
-      <div className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200/50 shadow-sm">
+      <div className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200/50 shadow-sm">
         <NavBar />
       </div>
-      <div className="px-4 sm:px-6 lg:px-8">
+      <div className="pt-20 px-4 sm:px-6 lg:px-8">
         <Hero />
       </div>
       <WhyNectarfi />

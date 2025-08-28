@@ -69,10 +69,10 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
           <div className="text-center py-8">
             <div className="text-green-500 text-6xl mb-4">✓</div>
             <h3 className="text-xl font-semibold text-gray-900 mb-2">
-              You're on the list!
+              You&#39;re on the list!
             </h3>
             <p className="text-gray-600">
-              We'll notify you when NectarFi cards become available.
+              We&#39;ll notify you when NectarFi cards become available.
             </p>
           </div>
         ) : (

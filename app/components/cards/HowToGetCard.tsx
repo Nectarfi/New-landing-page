@@ -42,7 +42,7 @@ export default function HowToGetCard() {
           </div>
         </div>
         <button className="mt-20 bg-[#AA8F6B] text-white py-3 px-8 rounded-lg text-lg font-semibold hover:bg-[#8e765b] transition duration-300">
-          Download App
+          Coming soon
         </button>
       </div>
     </div>

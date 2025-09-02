@@ -29,7 +29,7 @@ export default function BankingForAll() {
 
             <div className="flex flex-row gap-6 justify-start">
               <button className="bg-[#AA8F6B] text-white py-3 px-8 rounded-lg text-lg font-semibold hover:bg-[#8e765b] transition duration-300">
-                Download App
+                Coming soon
               </button>
               <button className="border-white border-1 text-white py-3 px-8 rounded-lg text-lg font-semibold">
                 Contact Us

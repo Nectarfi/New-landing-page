@@ -19,7 +19,7 @@ export default function Hero() {
             </div>
 
             <button className="bg-gray-800 text-white px-8 py-4 rounded-2xl text-lg font-semibold hover:bg-gray-700 hover:scale-105 transition-all duration-300 shadow-lg">
-              Download App
+              Coming soon
             </button>
           </div>
 

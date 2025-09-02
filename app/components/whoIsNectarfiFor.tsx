@@ -37,7 +37,7 @@ export default function WhoIsNectarfiFor() {
             <div className="bg-white rounded-2xl px-6 py-3 shadow-md">
               <h3 className="text-lg font-semibold mb-2">REMITTANCE</h3>
               <p className="text-sm leading-relaxed">
-                Send money home instantly, without the hassle. Invite your friends and family to Nectarfi and pay them instantly and for free singing stablecoins, knowing they can access their cash in local currency whenever they want.
+                Send money home instantly, without the hassle. Invite your friends and family to Nectarfi and pay them instantly and for free using stablecoins.
               </p>
             </div>
           </div>

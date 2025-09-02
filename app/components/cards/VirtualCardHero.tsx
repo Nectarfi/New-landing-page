@@ -12,7 +12,7 @@ export default function VirtualCardHero() {
             Use your card on global platforms like Netflix, Spotify, Amazon, Google Ads, AWS, and more.
           </p>
           <button className="bg-[#AA8F6B] text-white py-3 px-8 rounded-lg text-lg font-semibold hover:bg-[#8e765b] hover:scale-105 transition-all duration-300">
-            Download App
+            Coming soon
           </button>
         </div>
         <div className="lg:w-1/2 flex justify-center scroll-animate-right">

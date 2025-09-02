@@ -18,8 +18,8 @@ export default function NavBar() {
           </a>
         </div>
 
-        <div className="text-center text-white bg-[#957343] rounded-xl py-2 px-3 whitespace-nowrap hover:bg-[#7a5f37] hover:scale-105 transition-all duration-300">
-          <p className="text-xs sm:text-sm">Download App</p>
+        <div className="text-center text-white bg-[#957343] rounded-xl py-3 px-4 whitespace-nowrap hover:bg-[#7a5f37] hover:scale-105 transition-all duration-300">
+          <p className="text-xs sm:text-sm">Coming soon</p>
         </div>
       </div>
 
